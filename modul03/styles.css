@@ -1,0 +1,31 @@
+#tulisan {
+    color: rgb(73, 129, 241);
+}
+
+.box {
+    background: rgb(217, 231, 246);
+    text-align: right;
+    height: 200px;
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.boxdua {
+    background: rgb(224, 9, 138);
+    text-align: start;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+}
+
+.pengaturanfont {
+    color: rgb(145, 9, 224);
+    text-decoration: line-through;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+}
+
+
+
