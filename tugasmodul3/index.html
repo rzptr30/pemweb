@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Formulir Pendaftaran</h2>
+        <form id="formPendaftaran" onsubmit="return validateForm()">
+            <label for="nama">Nama Lengkap :</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="npm">NPM :</label>
+            <input type="text" id="npm" name="npm" required>
+
+            <label for="programStudi">Program Studi :</label>
+            <input type="text" id="programStudi" name="programStudi" required>
+
+            <label for="fakultas">Fakultas :</label>
+            <input type="text" id="fakultas" name="fakultas" required>
+
+            <label for="tempatLahir">Tempat Lahir :</label>
+            <input type="text" id="tempatLahir" name="tempatLahir" required>
+
+            <label for="tanggalLahir">Tanggal Lahir :</label>
+            <input type="date" id="tanggalLahir" name="tanggalLahir" required>
+
+            <label>Jenis Kelamin :</label>
+            <div class="gender">
+                <input type="radio" id="laki-laki" name="jenisKelamin" value="Laki-laki" required>
+                <label for="laki-laki">Laki-laki</label>
+
+                <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+            </div>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
